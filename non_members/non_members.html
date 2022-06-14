@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>momentum_ex</title>
+    <link rel="stylesheet" href="../non_members/css/non_members_settings.css">
+    <link rel="stylesheet" href="../non_members/css/non_members.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header><a href="non_members.html">momentum_ex</a></header>
+    
+    <nav>
+        <!-- Settings > 메뉴설정 완료버튼이다. -->
+        <button type="button" class="settings_button hidden">완료</button>
+        <ul class="draggable_space">
+            <li class="notice" draggable="true">
+                <a href="#notice_page">NOTICE</a>
+                <!-- <ul class="notice_in_tab hidden">
+                    <li class="notice_in_tab_element"><a href="#inform_page">공지사항</a></li>
+                    <li class="notice_in_tab_element"><a href="#more_info_page">more info</a></li>
+                </ul> -->
+            </li>
+        
+        
+            <li class="settings" draggable="true">
+                Settings
+                <ul class="settings_in_tab hidden">
+                    <li class="settings_in_tab_menu_setting">메뉴설정</li>
+                </ul>
+            </li>
+
+
+
+            <li class="time" draggable="true">
+                Time
+            </li>
+
+
+
+            <li class="date" draggable="true">
+                Date
+            </li>
+
+
+            <li class="weather" draggable="true">
+                Weather
+            </li>
+
+
+
+            <li class="todolist" draggable="true">
+                To Do List
+            </li>
+            
+            
+            
+            <li class="calculator" draggable="true">
+                Calculator
+            </li>
+        </ul>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="total">
+        <!-- iframe -->
+        <div id="time_date_weather_calculator_iframe">
+            <iframe src="../non_members/time_iframe.html" class="time_iframe hidden_three"></iframe>
+            <iframe src="../non_members/date_iframe.html" class="date_iframe hidden_three"></iframe>
+            <iframe src="../non_members/weather_iframe.html" class="weather_iframe hidden_three"></iframe>
+            <iframe src="../non_members/calculator_iframe.html" class="calculator_iframe hidden_three"></iframe>
+        </div>
+
+        <div id="todolist_iframe_div">
+            <iframe src="../non_members/todolist_iframe.html" class="todolist_iframe hidden_three"></iframe>
+            <!-- image -->
+            <img src="../img/화면 캡처 2022-05-19 204708.png" class="plz_cat_img" alt="NOTICE 확인을 부탁하는 고양이 이미지">
+        </div>
+
+    </div>
+    
+
+    <footer>
+        <div class="inquiry">
+            문의 : 
+            <span class="copy_email">
+                @gmail.com
+            </span>
+            <button type="button" class="material-icons">
+                content_paste
+            </button>
+        </div>
+    </footer>
+    <!-- NOTICE -->
+    <div class="notice_info" id="notice_page">
+        <a href="#top">원래위치로 돌아가려면 여기를 눌러주세요!</a>
+        <h1>momentum_ex 비회원 사용자 안내사항</h1>
+        <p>
+            1. momentum_ex에서 수집하는 비회원 사용자님의 정보는 아래와 같으며, 서비스 이용중이시던 브라우저를 닫으신다면 저장되지 않습니다!<br>
+            ㄱ)사용자 위치<br>
+            ㄴ)Settings > 메뉴설정 정보<br>
+            ㄷ)To Do List 정보<br>
+        </p>
+        <p>
+            2. 회원이 된다면!<br>
+            해당 웹에서 제공되는 서비스보다 더 많은 기능을 제공하고 있습니다.
+        </p>
+        <p>
+            3. 회원서비스 이용을 원하신다면!<br>
+            <a href="../index.html">여기</a> 클릭 > 회원 버튼 클릭 > 회원가입을 진행해주세요.
+        </p>
+        <!-- <p>
+            4. momentum_ex은 현재 탭을 닫으신다면 비회원 사용자님께서 서비스를 이용하시고 부수적인 정보들은 영구적으로 저장되지 않습니다.<br>
+        </p> -->
+        <h1>momentum_ex는 무엇인가요?</h1>
+        <p>
+            FE 개발자 취준생이 기획과 개발을 처음부터 직접 작업한 결과물입니다.<br>
+            나누어져 있던 메모장, 계산기, 날씨확인 등등 프로그램을 한꺼번에 제공하는 PC 사용자 친화적인 생활편의 통합서비스 제공을 목표로 만들어진 공간입니다.
+            <br>
+            <br>
+            모든 구성은 웹표준인 HTML5, CSS3, Javascript, web API, openweathermap API등등 으로 이루어져 있으며 코드는 <a href="">여기</a>를 클릭하여 확인 할 수 있습니다.
+            <br>
+            <br>
+            기획, 개발 : gamza2022
+        </p>
+    </div>
+    <script src="../non_members/js/non_members_nav.js"></script>
+    <script src="../non_members/js/non_members_notice.js"></script>
+    <script src="../non_members/js/non_members_footer_copy.js"></script>
+    <script src="../non_members/js/non_members_settings.js"></script>
+    <script src="../non_members/js/non_members_time.js"></script>
+    <script src="../non_members/js/non_members_date.js"></script>
+    <script src="../non_members/js/non_members_weather.js"></script>
+    <script src="../non_members/js/non_members_todolist.js"></script>
+    <script src="../non_members/js/non_members_calculator.js"></script>
+</body>
+</html>

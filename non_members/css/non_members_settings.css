@@ -1,0 +1,20 @@
+.grayBGColor {
+    background-color: gray;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.navWhiteColor{
+    background-color: white;
+}
+
+li {
+    list-style-type : none;
+}
+
+.settings_button {
+    width: 100%;
+}
+

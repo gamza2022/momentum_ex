@@ -1,0 +1,122 @@
+.hidden {
+    visibility: hidden;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#time_date_weather_calculator_iframe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time_iframe {
+    width: 635px;
+    height: 320px;
+}
+
+.date_iframe {
+    width: 635px;
+    height: 320px;
+}
+
+.weather_iframe {
+    width: 635px;
+    height: 320px;
+}
+
+.calculator_iframe {
+    width: 635px;
+    height: 320px;
+}
+
+#todolist_iframe_div {
+    display: flex;
+    justify-content:end;
+}
+
+.todolist_iframe {
+    width: 1910px;
+    height: 500px;
+}
+
+
+#todolist_iframe_div img {
+    width: 639px;
+    height: 500px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(104, 207, 173);
+}
+
+.hidden_two {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #e0e0e0;
+    height: 200px;
+    color: gray;
+}
+
+.hidden_three {
+    visibility: hidden;
+}
+
+.inquiry{
+    display: flex;
+    justify-content: center;
+}
+
+.hidden_four {
+    display: none;
+}
+
+.notice a {
+    text-decoration: none;
+    color: black;
+}
+
+.inquiry button {
+    background-color: #e0e0e0;
+    border: 0;
+    outline: 0;
+}
+
+.notice_info {
+    margin-top: 100%;
+}
+
+body{
+    -ms-overflow-style: none;
+    }
+    
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

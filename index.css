@@ -1,0 +1,72 @@
+header {
+    color: rgb(104, 207, 173);
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choose_box {
+    text-align: center;
+    padding-top:15%;
+}
+
+.choose_text {
+    font-size: 60px;
+}
+
+
+
+
+
+
+.members_button {
+    margin-top: 30px;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.non_members_button {
+    font-size: 40px;
+    margin-left: 35px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.tooltip_members {
+    display: none;
+    position: absolute;
+    max-width: 670px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+    color: white;
+    background: rgb(104, 207, 173);
+}
+
+.tooltip_non_members {
+    display: none;
+    position: absolute;
+    max-width: 670px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+    color: white;
+    background: rgb(104, 207, 173);
+}
+
+.members_button:hover .tooltip_members {
+    display: block;
+}
+
+.non_members_button:hover .tooltip_non_members {
+    display: block;
+}
+
+
+
+
+
